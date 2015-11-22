@@ -8,8 +8,13 @@
 
 #include <iostream>
 using namespace std;
+#include "mathomatics.h"
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	mathomatics* obj= new mathomatics();
+	long int a =20.1;
+	long int b =20.2;
+	std::cout<<" result = "<<obj->add(a,b)<<std::endl;
+	cout << "!!!Hello Worxx!!!" << endl; // prints !!!Hello World!!!
 	return 0;
 }
